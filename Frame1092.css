@@ -12,13 +12,13 @@
   box-sizing: border-box;
 }
 .component-5-item,
-.image-icon5 {
+.image-icon {
   position: absolute;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.image-icon5 {
+.image-icon {
   height: 49.09%;
   width: 100%;
   top: 0;
@@ -50,7 +50,7 @@
   height: 24px;
 }
 .bounding-box,
-.icon61 {
+.icon {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -59,7 +59,7 @@
   bottom: 0;
   left: 0;
 }
-.icon61 {
+.icon {
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -76,11 +76,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
-.text5 {
+.text {
   position: relative;
   line-height: 20px;
 }
-.frame-parent20 {
+.frame-parent18 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -151,7 +151,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.icon81 {
+.icon20 {
   position: relative;
   width: 20px;
   height: 16px;
@@ -165,7 +165,7 @@
   justify-content: flex-start;
   gap: var(--gap-13xl);
   text-align: left;
-  font-size: var(--text-base-regular-size);
+  font-size: var(--text-body-normal-regular-size);
   color: var(--colors-text-dark-182135-100);
   font-family: var(--caption);
 }

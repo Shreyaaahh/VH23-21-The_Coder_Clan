@@ -29,7 +29,7 @@
   width: 2px;
 }
 .border,
-.icon66 {
+.icon69 {
   position: relative;
 }
 .border {
@@ -38,7 +38,7 @@
   height: 24px;
   display: none;
 }
-.icon66 {
+.icon69 {
   width: 16px;
   height: 16px;
 }
@@ -94,7 +94,7 @@
 .x-badge {
   display: none;
   align-items: flex-start;
-  font-size: var(--font-size-xs);
+  font-size: var(--typography-caption-size);
   color: var(--color-mediumslateblue);
 }
 .content {
@@ -140,7 +140,7 @@
   left: 70.4%;
   border-radius: 50%;
   background-color: var(--color-mediumaquamarine);
-  border: 3px solid var(--color-white);
+  border: 3px solid var(--primary-contrast);
   box-sizing: border-box;
 }
 .avatarmain,
@@ -203,7 +203,7 @@
 }
 .x-badge3 {
   display: flex;
-  font-size: var(--font-size-xs);
+  font-size: var(--typography-caption-size);
   color: var(--color-salmon);
 }
 .menu {
@@ -224,7 +224,7 @@
 }
 .border6 {
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--primary-contrast);
   width: 2px;
   height: 24px;
 }
@@ -243,7 +243,7 @@
 .x-badge6 {
   flex-direction: column;
   align-items: flex-start;
-  font-size: var(--font-size-xs);
+  font-size: var(--typography-caption-size);
 }
 .content6 {
   flex-direction: row;
@@ -270,7 +270,7 @@
 }
 .x-badge7 {
   display: flex;
-  font-size: var(--font-size-xs);
+  font-size: var(--typography-caption-size);
   color: var(--color-mediumslateblue);
 }
 .menu1 {
@@ -280,26 +280,26 @@
   width: 250px;
   display: none;
 }
-.vector-icon4 {
+.vector-icon7 {
   position: relative;
   width: 40px;
   height: 40px;
 }
-.vaidhya4 {
+.vaidhya6 {
   position: relative;
   line-height: 40px;
 }
-.button2,
-.vector-parent3 {
+.button9,
+.vector-parent6 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.vector-parent3 {
+.vector-parent6 {
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.button2 {
+.button9 {
   position: absolute;
   top: 35px;
   left: 240px;
@@ -310,7 +310,7 @@
   justify-content: center;
   padding: var(--padding-base) var(--padding-5xl);
   box-sizing: border-box;
-  font-size: var(--font-size-5xl);
+  font-size: var(--text-h2-bold-size);
   color: var(--black);
   font-family: var(--caption);
 }
@@ -345,7 +345,7 @@
   bottom: 0;
   left: 0;
 }
-.group-child4 {
+.group-child6 {
   position: absolute;
   top: 0.02px;
   left: -100px;
@@ -356,7 +356,7 @@
   transform: rotate(-0.01deg);
   transform-origin: 0 0;
 }
-.arrow-left-2-icon3 {
+.arrow-left-2-icon5 {
   position: absolute;
   top: -61.99px;
   left: -62.01px;
@@ -364,7 +364,7 @@
   height: 24px;
   overflow: hidden;
 }
-.rectangle-parent7 {
+.rectangle-parent9 {
   position: absolute;
   top: 117.99px;
   left: 139.01px;
@@ -435,7 +435,7 @@
   justify-content: flex-start;
   gap: var(--gap-3xs);
 }
-.container2 {
+.container8 {
   position: absolute;
   width: calc(100% - 66px);
   top: calc(50% - 9px);
@@ -459,13 +459,13 @@
   width: 17px;
   height: 16px;
 }
-.input {
+.input7 {
   align-self: stretch;
   position: relative;
   border-radius: var(--br-7xs);
   background-color: var(--color-aliceblue);
   height: 46px;
-  font-size: var(--font-size-mini);
+  font-size: var(--components-button-large-size);
   color: var(--color-slategray-100);
 }
 .form-help-text1 {
@@ -482,7 +482,7 @@
   position: relative;
   height: 12px;
   display: none;
-  font-size: var(--font-size-2xs);
+  font-size: var(--text-caption-2-semi-bold-size);
   color: var(--color-slategray-300);
 }
 .inputlarge {
@@ -501,10 +501,10 @@
   position: relative;
   height: 12px;
   text-align: right;
-  font-size: var(--font-size-2xs);
+  font-size: var(--text-caption-2-semi-bold-size);
   color: var(--color-slategray-200);
 }
-.form {
+.form1 {
   width: 424px;
   display: flex;
   flex-direction: column;
@@ -513,14 +513,14 @@
   padding: var(--padding-5xl) 0 0;
   box-sizing: border-box;
   gap: var(--gap-11xl);
-  font-size: var(--caption-size);
+  font-size: var(--text-h5-semi-bold-size);
   color: var(--color-darkslategray-100);
 }
-.label {
+.label1 {
   position: relative;
   line-height: 16px;
 }
-.button3 {
+.button10 {
   border-radius: var(--br-71xl);
   background-color: var(--color-gray-900);
   width: 424px;
@@ -565,12 +565,12 @@
   width: 58px;
   height: 58px;
 }
-.group-child5 {
+.group-child7 {
   border-radius: var(--br-7xl);
-  background-color: var(--color-white);
+  background-color: var(--primary-contrast);
   box-shadow: var(--shadow-shadow-sm);
 }
-.group-child5,
+.group-child7,
 .rectangle-wrapper {
   position: absolute;
   top: 0;
@@ -578,29 +578,29 @@
   width: 52px;
   height: 52px;
 }
-.vector-icon5 {
+.vector-icon8 {
   position: absolute;
   top: calc(50% - 12px);
   left: calc(50% - 6px);
   width: 13px;
   height: 25px;
 }
-.group-parent7 {
+.group-parent10 {
   position: relative;
   width: 52px;
   height: 52px;
 }
-.frame-parent30,
-.social1 {
+.frame-parent31,
+.social3 {
   display: flex;
   flex-direction: row;
 }
-.frame-parent30 {
+.frame-parent31 {
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-13xl);
 }
-.social1 {
+.social3 {
   position: absolute;
   top: 42px;
   left: 0;
@@ -608,12 +608,12 @@
   align-items: center;
   justify-content: center;
 }
-.social {
+.social2 {
   position: relative;
   width: 424px;
   height: 94px;
   text-align: center;
-  font-size: var(--font-size-xs);
+  font-size: var(--typography-caption-size);
   color: var(--color-slategray-300);
 }
 .form-logindefault {
@@ -630,7 +630,7 @@
 .sign-up1 {
   color: var(--color-gray-900);
 }
-.label1 {
+.label2 {
   position: relative;
   line-height: 24px;
   font-weight: 600;
@@ -642,10 +642,10 @@
   justify-content: flex-start;
   padding: var(--padding-3xs);
   text-align: right;
-  font-size: var(--caption-size);
+  font-size: var(--text-h5-semi-bold-size);
   color: var(--color-slategray-300);
 }
-.container1,
+.container7,
 .main {
   height: 882px;
   display: flex;
@@ -659,10 +659,10 @@
   box-sizing: border-box;
   gap: var(--gap-31xl);
 }
-.container1 {
+.container7 {
   position: absolute;
   top: 34px;
-  left: 743px;
+  left: 742.97px;
   width: 648px;
   justify-content: flex-start;
   font-size: var(--headings-h2-size);
@@ -670,12 +670,12 @@
 }
 .desktoplog-in {
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--primary-contrast);
   width: 100%;
   height: 950px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--caption-size);
-  color: var(--color-white);
+  font-size: var(--text-h5-semi-bold-size);
+  color: var(--primary-contrast);
   font-family: var(--headings-h6);
 }

@@ -1,4 +1,4 @@
-.base1 {
+.base17 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -8,9 +8,9 @@
   left: 0;
   background-color: var(--color-whitesmoke-200);
 }
-.about3,
-.containers1,
-.products1 {
+.about18,
+.containers15,
+.products15 {
   position: absolute;
   width: 8.14%;
   top: calc(50% - 152.5px);
@@ -19,19 +19,19 @@
   font-weight: 500;
   display: inline-block;
 }
-.about3,
-.products1 {
+.about18,
+.products15 {
   width: 16.31%;
   top: calc(50% - 94.79px);
   left: 63.44%;
   line-height: 24px;
   font-weight: 600;
 }
-.about3 {
+.about18 {
   width: 11.1%;
   top: calc(50% - 40.79px);
 }
-.social-networkinstagram-icon1 {
+.social-networkinstagram-icon17 {
   position: absolute;
   height: 10.85%;
   top: 89.15%;
@@ -40,9 +40,9 @@
   max-height: 100%;
   width: 20px;
 }
-.social-networkfacebook-icon1,
-.social-networklinkedin-icon1,
-.social-networktwitter-icon1 {
+.social-networkfacebook-icon17,
+.social-networklinkedin-icon17,
+.social-networktwitter-icon17 {
   position: absolute;
   height: 10.85%;
   top: 89.15%;
@@ -51,15 +51,15 @@
   max-height: 100%;
   width: 20px;
 }
-.social-networkfacebook-icon1,
-.social-networklinkedin-icon1 {
+.social-networkfacebook-icon17,
+.social-networklinkedin-icon17 {
   right: 394px;
 }
-.social-networkfacebook-icon1 {
+.social-networkfacebook-icon17 {
   right: 434px;
 }
-.follow-us2,
-.follow-us3 {
+.follow-us30,
+.follow-us31 {
   position: absolute;
   top: calc(50% + 11.21px);
   right: 0;
@@ -69,17 +69,17 @@
   display: inline-block;
   width: 166px;
 }
-.follow-us3 {
+.follow-us31 {
   top: calc(50% - 94.79px);
   right: 288px;
 }
-.helloforpeoplestud1 {
+.helloforpeoplestud15 {
   position: relative;
   line-height: 25px;
   display: inline-block;
   width: 263px;
 }
-.helloforpeoplestud-group {
+.helloforpeoplestud-parent15 {
   position: absolute;
   top: 41px;
   left: 0;
@@ -92,7 +92,7 @@
   color: var(--color-darkslategray-400);
   font-family: var(--font-lato);
 }
-.products-group {
+.products-parent15 {
   position: absolute;
   width: 31.53%;
   top: calc(50% - 92.5px);
@@ -103,7 +103,7 @@
   color: var(--color-darkslategray-500);
   font-family: var(--caption);
 }
-.footer {
+.footer1 {
   position: absolute;
   top: 349px;
   left: 0;
@@ -111,8 +111,8 @@
   height: 64px;
   overflow: hidden;
 }
-.background5,
-.base-group {
+.background35,
+.base-parent15 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -121,23 +121,23 @@
   bottom: 0;
   left: 0;
 }
-.background5 {
+.background35 {
   border-radius: var(--br-8xs);
   background-color: var(--color-gray-900);
 }
-.google-play-icon1 {
+.google-play-icon15 {
   position: absolute;
   top: calc(50% - 15.5px);
   left: calc(50% - 62.15px);
   width: 126.65px;
   height: 31px;
 }
-.badgegoogle-play-market45px1 {
+.badgegoogle-play-market45px17 {
   position: relative;
   width: 165px;
   height: 45px;
 }
-.badgegoogle-play-market45px-container {
+.badgegoogle-play-market45px-wrapper15 {
   position: absolute;
   top: 254px;
   left: 1047px;
@@ -146,12 +146,12 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.group-root {
+.group-top {
   position: relative;
   width: 100%;
   height: 413px;
   text-align: left;
-  font-size: var(--font-size-5xl);
+  font-size: var(--text-h2-bold-size);
   color: var(--color-gray-900);
   font-family: var(--h2);
 }

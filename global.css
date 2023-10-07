@@ -7,37 +7,39 @@ body {
   /* fonts */
   --headings-h6: Inter;
   --font-abel: Abel;
-  --caption: Poppins;
+  --caption-2: Poppins;
   --font-acme: Acme;
+  --text-h4-bold: "Open Sans";
+  --headline-2: "DM Sans";
   --font-lato: Lato;
   --h2: Rubik;
-  --headline-4: "DM Sans";
-  --text-h5-semi-bold: "Open Sans";
   --components-button-large: Roboto;
   --font-league-script: "League Script";
 
   /* font sizes */
   --paragraph-lead-size: 18px;
   --font-size-4xl: 23px;
-  --text-h2-bold-size: 24px;
+  --body-1-bold-size: 24px;
   --headings-h2-size: 28px;
   --font-size-25xl: 44px;
   --font-size-2xl: 21px;
   --font-size-16xl: 35px;
   --font-size-26xl: 45px;
-  --text-body-normal-regular-size: 16px;
+  --text-h4-bold-size: 16px;
   --text-h5-semi-bold-size: 14px;
   --font-size-50xl: 69px;
-  --headline-2-size: 48px;
-  --typography-caption-size: 12px;
+  --text-caption-1-regular-18pt-line-height-size: 12px;
   --font-size-mid: 17px;
-  --h2-size: 32px;
+  --headline-2-size: 48px;
+  --text-caption-2-semi-bold-size: 11px;
+  --text-h1-bold-size: 32px;
+  --headline-1-size: 64px;
+  --font-size-11xl: 30px;
   --components-button-large-size: 15px;
   --components-chip-size: 13px;
-  --headline-1-size: 64px;
-  --text-caption-2-semi-bold-size: 11px;
   --headline-3-size: 40px;
   --font-size-3xs: 10px;
+  --h1-size: 36px;
 
   /* Colors */
   --primary-contrast: #fff;
@@ -60,6 +62,7 @@ body {
   --color-hotpink: #f85e9f;
   --color-goldenrod-100: #facd49;
   --color-black: #000;
+  --color-whitesmoke-300: #f7fafc;
   --color-whitesmoke-100: #f7f7f7;
   --color-whitesmoke-200: #f4f5f6;
   --color-whitesmoke: #eee;
@@ -68,28 +71,30 @@ body {
   --color-darkslategray-300: #393e46;
   --color-darkslategray-400: #353945;
   --color-darkslategray-500: #363940;
-  --color-gainsboro: #e6e8ec;
-  --grey-grey-300: #e0e0e0;
-  --grey-grey-400: #bdbdbd;
-  --color-silver-100: #b1b5c3;
-  --color-slategray-100: #7a828a;
-  --color-slategray-300: #718096;
-  --color-slategray-200: #777e90;
-  --color-lightsteelblue: #cad1e1;
-  --color-lightslategray: #95a1bb;
   --color-dimgray: #626264;
   --grey-grey-700: #616161;
   --color-dimgray-100: rgba(116, 116, 116, 0.1);
+  --color-darkgray: #a3a3a4;
+  --color-darkgray-100: rgba(163, 163, 164, 0.32);
+  --color-gainsboro: #e6e8ec;
+  --grey-grey-300: #e0e0e0;
+  --color-slategray-100: #7a828a;
+  --color-slategray-300: #718096;
+  --color-slategray-200: #777e90;
+  --color-silver-200: #c4c4c4;
+  --grey-grey-400: #bdbdbd;
+  --color-silver-100: #b1b5c3;
+  --color-darkslateblue-100: #3b5999;
+  --color-darkslateblue-200: #503e9d;
+  --color-lightsteelblue: #cad1e1;
+  --color-lightslategray: #95a1bb;
   --color-aliceblue: #edf2f7;
   --color-lavender: #e1e8ff;
   --color-mediumslateblue: #4c6fff;
   --color-mistyrose: #ffe6e4;
   --color-salmon: #f16063;
   --color-mediumaquamarine: #66cb9f;
-  --color-darkslateblue-100: #3b5999;
-  --color-darkslateblue-200: #503e9d;
   --color-lightcoral: #f18a85;
-  --color-darkgray: #a3a3a4;
 
   /* Gaps */
   --gap-134xl: 153px;
@@ -105,10 +110,11 @@ body {
   --gap-xl: 20px;
   --gap-xs: 12px;
   --gap-109xl: 128px;
-  --gap-29xl: 48px;
-  --gap-21xl: 40px;
-  --gap-9xs: 4px;
   --gap-3xs: 10px;
+  --gap-21xl: 40px;
+  --gap-29xl: 48px;
+  --gap-9xs: 4px;
+  --gap-1181xl: 1200px;
   --gap-31xl: 50px;
   --gap-11xl: 30px;
   --gap-5xl: 24px;
@@ -121,14 +127,14 @@ body {
   --padding-base: 16px;
   --padding-xl: 20px;
   --padding-141xl: 160px;
-  --padding-3xs: 10px;
   --padding-5xl: 24px;
-  --padding-xs: 12px;
   --padding-61xl: 80px;
   --padding-117xl: 136px;
+  --padding-xs: 12px;
   --padding-29xl: 48px;
   --padding-11xs: 2px;
   --padding-7xs: 6px;
+  --padding-3xs: 10px;
   --padding-5xs: 8px;
   --padding-8xs: 5px;
   --padding-mini: 15px;
@@ -142,24 +148,24 @@ body {
   --br-9xl-4: 28.4px;
   --br-481xl: 500px;
   --br-13xl: 32px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-5xs: 8px;
   --br-11xs: 2px;
   --br-71xl: 90px;
-  --br-xs: 12px;
   --br-8xs: 5px;
+  --br-12xs: 1px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
   --br-base: 16px;
   --br-10xs: 3px;
-  --br-9xs: 4px;
-  --br-xl: 20px;
   --br-21xl: 40px;
   --br-3xs: 10px;
   --br-45xl: 64px;
   --br-7xl: 26px;
-  --br-7xs: 6px;
-  --br-5xs: 8px;
-  --br-12xs: 1px;
 
   /* Effects */
+  --depth-4: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
   --shadow-shadow-sm: 0px 0px 1px rgba(12, 26, 75, 0.2),
     0px 1px 3px rgba(50, 50, 71, 0.1);
-  --depth-4: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
 }

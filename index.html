@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
     />
     <link
       rel="stylesheet"
@@ -28,15 +28,15 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
     />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600;700&display=swap"
     />
     <link
       rel="stylesheet"
@@ -65,19 +65,19 @@
           <div class="schedule-appointment" id="scheduleAppointmentText">
             Schedule Appointment
           </div>
-          <div class="chatrooms">ChatRooms</div>
-          <div class="chatrooms">Helper</div>
-          <div class="chatrooms">TimeCare</div>
-          <div class="contact-us" id="contactUsText">Contact Us</div>
-          <div class="ai-diagnostics">AI - Diagnostics</div>
-          <div class="ai-diagnostics">Blogs</div>
+          <div class="chatrooms"><a href="Chatbot.html">ChatRooms</a></div>
+          <div class="helper" id="helperText">Helper</div>
+          <div class="helper" id="timeCareText">TimeCare</div>
+          <div class="helper" id="contactUsText">Contact Us</div>
+          <div class="ai-diagnostics"><a href="ProductInfo.html">AI - Diagnostics</a></div>
+          <div class="blogs" id="blogsText">Blogs</div>
         </div>
         <div class="frame-group">
           <div class="log-in-wrapper" id="frameContainer2">
             <div class="chatrooms">Log In</div>
           </div>
           <div class="sign-up-wrapper" id="frameContainer3">
-            <div class="contact-us" id="signUpText">Sign Up</div>
+            <div class="chatrooms">Sign Up</div>
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@
           </div>
         </div>
       </div>
-      <div class="rectangle-group">
+      <div class="rectangle-group" id="frameContainer31">
         <img class="rectangle-icon" alt="" src="./public/rectangle-6@2x.png" />
 
         <div class="frame-parent3">
@@ -389,7 +389,7 @@
         <div class="rectangle-parent4">
           <div class="group-child1"></div>
           <img
-            class="arrow-left-1-icon"
+            class="arrow-left-2-icon"
             alt=""
             src="./public/arrowleft-2.svg"
           />
@@ -420,11 +420,11 @@
             <div class="about">Mobile</div>
           </div>
           <div class="rectangle-parent">
-            <div class="company">Contact</div>
+            <div class="contact" id="contactText">Contact</div>
             <div class="about">Why vAIdhya?</div>
             <div class="about">Partner with us</div>
             <div class="about">FAQ’s</div>
-            <div class="about">Blog</div>
+            <div class="blog" id="blogText">Blog</div>
           </div>
           <div class="rectangle-parent">
             <div class="company">Meet Us</div>
@@ -454,10 +454,31 @@
         });
       }
       
+      var helperText = document.getElementById("helperText");
+      if (helperText) {
+        helperText.addEventListener("click", function (e) {
+          window.location.href = "./Helper.html";
+        });
+      }
+      
+      var timeCareText = document.getElementById("timeCareText");
+      if (timeCareText) {
+        timeCareText.addEventListener("click", function (e) {
+          window.location.href = "./TIMECARE.html";
+        });
+      }
+      
       var contactUsText = document.getElementById("contactUsText");
       if (contactUsText) {
         contactUsText.addEventListener("click", function (e) {
-          window.location.href = "./TIMECARE.html";
+          window.location.href = "./DesktopContactUs.html";
+        });
+      }
+      
+      var blogsText = document.getElementById("blogsText");
+      if (blogsText) {
+        blogsText.addEventListener("click", function (e) {
+          window.location.href = "./Blog.html";
         });
       }
       
@@ -468,17 +489,31 @@
         });
       }
       
-      var signUpText = document.getElementById("signUpText");
-      if (signUpText) {
-        signUpText.addEventListener("click", function (e) {
-          window.location.href = "./CreateAccountAs.html";
-        });
-      }
-      
       var frameContainer3 = document.getElementById("frameContainer3");
       if (frameContainer3) {
         frameContainer3.addEventListener("click", function (e) {
           window.location.href = "./CreateAccountAs.html";
+        });
+      }
+      
+      var frameContainer31 = document.getElementById("frameContainer31");
+      if (frameContainer31) {
+        frameContainer31.addEventListener("click", function (e) {
+          window.location.href = "./Blog.html";
+        });
+      }
+      
+      var contactText = document.getElementById("contactText");
+      if (contactText) {
+        contactText.addEventListener("click", function (e) {
+          window.location.href = "./DesktopContactUs.html";
+        });
+      }
+      
+      var blogText = document.getElementById("blogText");
+      if (blogText) {
+        blogText.addEventListener("click", function (e) {
+          window.location.href = "./Blog.html";
         });
       }
       </script>

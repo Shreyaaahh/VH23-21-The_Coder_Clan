@@ -48,8 +48,8 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-base);
-  font-size: var(--text-h2-bold-size);
-  font-family: var(--caption);
+  font-size: var(--body-1-bold-size);
+  font-family: var(--caption-2);
 }
 .schedule-appointment {
   position: relative;
@@ -58,18 +58,23 @@
   cursor: pointer;
 }
 .ai-diagnostics,
+.blogs,
 .chatrooms,
-.contact-us {
+.helper {
   position: relative;
   line-height: 120%;
 }
-.contact-us {
+.helper {
   cursor: pointer;
 }
-.ai-diagnostics {
+.ai-diagnostics,
+.blogs {
   display: inline-block;
   width: 103px;
   flex-shrink: 0;
+}
+.blogs {
+  cursor: pointer;
 }
 .schedule-appointment-parent {
   width: 733px;
@@ -304,7 +309,7 @@
   line-height: 120%;
 }
 .get-free-ai-check-container {
-  font-size: var(--text-body-normal-regular-size);
+  font-size: var(--text-h4-bold-size);
   line-height: 160%;
   font-family: var(--headings-h6);
   color: var(--color-gray-400);
@@ -336,7 +341,7 @@
   line-height: 160%;
   font-family: var(--headings-h6);
   color: var(--color-gray-400);
-  font-size: var(--text-body-normal-regular-size);
+  font-size: var(--text-h4-bold-size);
 }
 .booking-1-group,
 .frame-parent2,
@@ -494,6 +499,7 @@
   position: absolute;
   top: 1913px;
   left: 165px;
+  cursor: pointer;
 }
 .frame-child1 {
   position: relative;
@@ -807,21 +813,29 @@
 .group-child1 {
   position: absolute;
   top: 0;
-  left: 100px;
+  left: 82px;
   border-radius: var(--br-81xl);
   background-color: var(--color-slateblue);
-  width: 100px;
-  height: 100px;
+  width: 82px;
+  height: 88px;
   transform: rotate(180deg);
   transform-origin: 0 0;
+}
+.arrow-left-2-icon {
+  position: absolute;
+  top: 27px;
+  left: 39.5px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
 }
 .rectangle-parent4 {
   position: relative;
   box-shadow: 0 181px 51px transparent, 0 116px 46px rgba(0, 0, 0, 0.01),
     0 65px 39px rgba(0, 0, 0, 0.04), 0 29px 29px rgba(0, 0, 0, 0.06),
     0 7px 16px rgba(0, 0, 0, 0.07), 0 0 0 rgba(0, 0, 0, 0.08);
-  width: 100px;
-  height: 100px;
+  width: 82px;
+  height: 88px;
 }
 .group-parent3,
 .vector-container {
@@ -833,7 +847,7 @@
 .group-parent3 {
   position: absolute;
   top: 4341px;
-  left: calc(50% - 560px);
+  left: calc(50% - 551px);
   text-align: center;
   color: var(--color-hotpink);
 }
@@ -871,6 +885,20 @@
 .about {
   line-height: 160%;
 }
+.blog,
+.contact {
+  position: relative;
+  cursor: pointer;
+}
+.contact {
+  font-size: var(--font-size-4xl);
+  line-height: 120%;
+  font-family: var(--font-abel);
+  color: var(--black);
+}
+.blog {
+  line-height: 160%;
+}
 .frame-parent15,
 .frame-parent17,
 .xyz-mumbai-parent {
@@ -897,12 +925,11 @@
   top: 5604px;
   left: 1px;
   width: 1440px;
-  height: 347px;
   padding: 0 var(--padding-146xl);
   box-sizing: border-box;
   gap: var(--gap-134xl);
-  font-size: var(--text-h2-bold-size);
-  font-family: var(--caption);
+  font-size: var(--body-1-bold-size);
+  font-family: var(--caption-2);
 }
 .objects-icon,
 .objects-icon1,

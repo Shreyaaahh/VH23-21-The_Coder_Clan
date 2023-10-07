@@ -12,13 +12,13 @@
   box-sizing: border-box;
 }
 .component-5-child5,
-.image-icon24 {
+.image-icon27 {
   position: absolute;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.image-icon24 {
+.image-icon27 {
   height: 49.09%;
   width: 100%;
   top: 0;
@@ -35,7 +35,7 @@
   bottom: 12.01%;
   left: 74.51%;
 }
-.title50 {
+.title55 {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,13 +44,13 @@
   display: inline-block;
   width: 219px;
 }
-.information16 {
+.information17 {
   position: relative;
   width: 219px;
   height: 24px;
 }
-.bounding-box64,
-.icon208 {
+.bounding-box66,
+.icon237 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -59,7 +59,7 @@
   bottom: 0;
   left: 0;
 }
-.icon208 {
+.icon237 {
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -76,17 +76,17 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
-.text46 {
+.text53 {
   position: relative;
   line-height: 20px;
 }
-.frame-parent89 {
+.frame-parent93 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   gap: var(--gap-5xs);
-  font-size: var(--typography-caption-size);
+  font-size: var(--text-caption-1-regular-18pt-line-height-size);
   color: var(--color-dimgray);
 }
 .information-parent10 {
@@ -151,7 +151,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.icon228 {
+.icon257 {
   position: relative;
   width: 20px;
   height: 16px;
@@ -165,7 +165,7 @@
   justify-content: flex-start;
   gap: var(--gap-13xl);
   text-align: left;
-  font-size: var(--text-body-normal-regular-size);
+  font-size: var(--text-h4-bold-size);
   color: var(--colors-text-dark-182135-100);
-  font-family: var(--caption);
+  font-family: var(--caption-2);
 }

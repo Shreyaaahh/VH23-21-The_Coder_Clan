@@ -1,15 +1,15 @@
-.divider13,
-.nav5 {
+.divider62,
+.nav19 {
   position: relative;
   overflow: hidden;
 }
-.divider13 {
+.divider62 {
   align-self: stretch;
   background-color: var(--color-gainsboro);
   height: 1px;
   flex-shrink: 0;
 }
-.nav5 {
+.nav19 {
   background-color: var(--color-gray-600);
   width: 100%;
   display: flex;
